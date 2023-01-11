@@ -155,8 +155,8 @@ h1 {
     .tableoverflow {
         overflow: auto;
         width: 100%;
-
-
+        scrollbar-width:auto;
+        
     }
 
 }
