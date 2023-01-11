@@ -20,7 +20,7 @@ footer {
 ul {
     display: flex;
     text-decoration: none;
-    
+
 }
 
 /* Header*/
@@ -28,7 +28,7 @@ ul {
 .logo {
     display: absolute;
     height: 90px;
-    
+    width: 100%;
 }
 
 .sloggan {
@@ -41,16 +41,18 @@ ul {
 header {
     display: flex;
     font-weight: bold;
-    
+    width: 100%;
 }
 
 /* Promotion*/
+.pros {
+    width: 100%;
+}
 
 .promotion {
     text-align: center;
     padding-top: 8px;
     width: 100%;
-    
 }
 
 /* CSS index.html */
@@ -76,7 +78,6 @@ li {
 aside {
     background-color: grey;
     width: 20%;
-
 }
 
 .indexcolonne {
@@ -117,4 +118,27 @@ h1 {
     background-color: rgb(245, 245, 240);
 }
 
+.contct {
+    width: 100%;
+
+}
+
 /* Web Responsive */
+
+@media screen and (max-width: 768px){
+h1, p {
+    font-size: 2rem
+}
+
+aside {
+    position: relative;
+    width: 100%;
+    background: none;
+}
+
+nav{
+    position: absolute;
+}
+
+
+}
