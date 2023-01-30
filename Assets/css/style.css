@@ -61,12 +61,14 @@ body {
 
     background-attachment: fixed;
     background-color: rgb(152, 196, 175);
-
 }
 
-section>h1 {
+section>{
     color: black;
 
+}
+h2,h3,h4{
+    color: rgb(150, 65, 8);
 }
 
 li {
@@ -98,7 +100,6 @@ td {
 h1,
 p {
     text-align: left;
-
 }
 
 h1 {
