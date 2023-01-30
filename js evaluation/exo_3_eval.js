@@ -1,8 +1,3 @@
-//*Exercice 2 : Table de multiplication*//
-
-
-
-//*Exercice 3 : recherche d'un prénom*//
 
 var tab = ["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", "Stéphane"];
 var saisie = window.prompt("Veuillez écrire votre prénom")
