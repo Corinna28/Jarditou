@@ -6,15 +6,19 @@ var Nombre2 = window.prompt("Saisissez la somme 2");
 switch (operateur) {
 
     case '+': 
-    console.log (Nombre1+Nombre2);break;
+    console.log (Nombre1+Nombre2);
+    break;
 
     case '-':
-    console.log (Nombre1-Nombre2);break;
+    console.log (Nombre1-Nombre2);
+    break;
 
     case '/':
-    console.log (Nombre1/Nombre2);break;
+    console.log (Nombre1/Nombre2);
+    break;
 
     case '*':
-    console.log (Nombre1*Nombre2);break;
+    console.log (Nombre1*Nombre2);
+    break;
 
 }
