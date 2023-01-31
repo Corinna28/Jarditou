@@ -6,6 +6,6 @@ if(tab.includes(saisie)){
 	tab.push(" ");
 	console.log(tab);
 }
-else{alert("Erreur")}
+else{alert("Votre prénom ne fait pas parti des selectionnés")}
 
 alert(tab);
