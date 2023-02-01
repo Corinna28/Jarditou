@@ -1,20 +1,26 @@
 var age = prompt('Quel est votre âge ?');
+while(age<=100)
 
-if (0 <= age && age <= 20) {
-    alert("Vous êtes un jeune");
+
+if (age <=20) {
+    alert("Vous êtes dans la catégorie : Jeune");
+   jeune++;
 }
 
-else if (21 <= age && age <= 40) {
-    alert("Vous êtes un adulte");
-    
+else if (age >= 20 && age <=40) {
+    alert("Vous êtes dans la catégorie : Adulte");
+    adulte++;
 }
 
-else if (41 <= age && age <= 100) {
-    alert("Vous êtes un Vieux");
+else if (age >40 && age <= 100) {
+    alert("Vous êtes dans la catégorie : Vieux");
+    vieux;
 }
 
-else (100 <= age)
+else (age ==100)
 {
-    alert("Vous êtes Centenaire");
-   
+    alert("Vous êtes dans la catégorie : Centenaire");
+     
 } 
+
+console.log("fin de la boucle");
