@@ -4,3 +4,4 @@ var pap = 0
 var REM = 0
 var port = 0
 
+while (pu=600)
